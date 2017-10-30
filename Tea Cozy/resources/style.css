@@ -1,0 +1,154 @@
+
+body {
+    background-color: black;
+    font-family:Helvetica;
+    color: seashell;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: bolder;
+    padding: 10px;
+    margin: 0;
+}
+
+h4 {
+    font-weight: bold;
+    padding: 10px;
+    margin:0;
+}
+
+/*Header*/
+
+.header {
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.header img {
+    height: 50px;
+    padding: 10px 0px 5px 10px;
+}
+
+.navlinks a {
+    text-decoration: underline;
+    color: seashell;
+    padding-right: 16px;
+}
+
+/*Mission*/
+
+.herocontainer {
+    text-align: center;
+    margin-top: 64px;
+}
+
+.missionimage {
+    height: 700px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#mission {
+    position: relative;
+    bottom: 380px;
+    background: black;
+    opacity: 1;
+}
+
+/*Tea of the Month*/
+
+.tea-container {
+display:flex;
+justify-content: space-around;
+}
+
+.tea-container2{
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+#tea{
+width: 1000px;
+margin: 0 auto;
+
+}
+.teacaption{
+text-align: center;
+padding-bottom: 20px;
+}
+
+.caption{
+text-align: center;
+}
+
+.captions{
+text-align: center;
+padding: 20px;
+}
+
+.caption img{
+height: 200px;
+width: 300px;
+}
+
+.captions img{
+height: 200px;
+width: 300px;
+}
+
+
+
+/*Locations*/
+
+#locations {
+background-image: url("./images/img-locations-background.jpg");
+background-position: center;
+background-size: cover;
+height: 500px;
+width: 1200px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#locations h2 {
+font-weight: bold;
+text-align: center;
+padding-bottom: 15px;
+}
+
+.location {
+width:300px;
+text-align: center;
+font-weight: bold;
+background-color: black;
+color:seashell;
+opacity: 1;
+margin-right: 40px;
+display: inline-block;
+}
+
+/*Footer*/
+
+.footer {
+height: 200px;
+text-align: center;
+}
+
+.copyright {
+text-align: left;
+padding-left: 20px;
+}
